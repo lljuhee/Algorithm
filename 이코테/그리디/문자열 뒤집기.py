@@ -15,7 +15,7 @@ for i in range(len(data)-1):
     else :
       count1 += 1
 
-if i == '1':
+if data[i+1] == '1':
   count0 +=1
 else :
   count1 +=1 

@@ -18,10 +18,9 @@ for i in range(n):
 for k in data:
   print(k)
 '''
-
+#-----------------------------------
 '''
 삽입 정렬
-'''
 
 n=int(input())
 data=[]
@@ -36,5 +35,17 @@ for i in range(1,n):
     else:
       break
     
+for i in data:
+  print(i)
+'''
+# ------------------------------
+n=int(input())
+data=[]
+
+for i in range(n):
+  data.append(int(input()))
+
+data.sort()
+
 for i in data:
   print(i)
